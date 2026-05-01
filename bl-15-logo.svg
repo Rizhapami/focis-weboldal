@@ -1,0 +1,16 @@
+<svg width="180" height="180" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="90" cy="90" r="82" fill="#071a44" stroke="#d6b25e" stroke-width="7"/>
+    <circle cx="90" cy="90" r="66" fill="none" stroke="white" stroke-width="2" opacity="0.6"/>
+
+    <g fill="#d6b25e">
+        <polygon points="90,14 96,31 114,31 99,41 105,58 90,48 75,58 81,41 66,31 84,31"/>
+        <polygon points="143,37 146,48 158,48 148,55 152,66 143,59 134,66 138,55 128,48 140,48"/>
+        <polygon points="37,37 40,48 52,48 42,55 46,66 37,59 28,66 32,55 22,48 34,48"/>
+        <polygon points="153,109 156,120 168,120 158,127 162,138 153,131 144,138 148,127 138,120 150,120"/>
+        <polygon points="27,109 30,120 42,120 32,127 36,138 27,131 18,138 22,127 12,120 24,120"/>
+    </g>
+
+    <text x="90" y="98" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="58" font-weight="800">15</text>
+    <text x="90" y="126" text-anchor="middle" fill="#d6b25e" font-family="Arial, sans-serif" font-size="24" font-weight="800">BL</text>
+    <text x="90" y="146" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="700">CHAMPIONS</text>
+</svg>

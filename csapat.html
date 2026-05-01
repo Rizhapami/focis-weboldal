@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Kedvenc csapatom</title>
+
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background-image:
+                linear-gradient(rgba(0, 0, 0, 0.55), rgba(8, 18, 45, 0.72)),
+                url("real.jgp.webp");
+            background-size: cover;
+            background-position: center;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 58px;
+        }
+
+        p {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        a {
+            position: absolute;
+            top: 20px;
+            padding: 12px 16px;
+            border-radius: 6px;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .vissza-link {
+            left: 20px;
+        }
+
+        .real-link {
+            right: 20px;
+        }
+
+        .doboz {
+            width: 80%;
+            max-width: 650px;
+            margin: 120px auto 0;
+            padding: 36px;
+            border: 3px solid #d6b25e;
+            border-radius: 8px;
+            background-color: rgba(0, 0, 0, 0.58);
+        }
+
+        .cimer {
+            width: 110px;
+            height: 110px;
+            margin: 0 auto 22px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 4px solid #d6b25e;
+            border-radius: 50%;
+            background-color: white;
+            color: #12306b;
+            font-size: 34px;
+            font-weight: bold;
+        }
+
+        .vonal {
+            width: 150px;
+            height: 4px;
+            margin: 20px auto;
+            background-color: #d6b25e;
+        }
+
+        .adatok {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            margin-top: 28px;
+        }
+
+        .adat {
+            width: 130px;
+            min-height: 170px;
+            padding: 18px 14px;
+            border-radius: 8px;
+            border: 1px solid rgba(214, 178, 94, 0.45);
+            background-color: rgba(255, 255, 255, 0.10);
+        }
+
+        .bl-adat {
+            width: 170px;
+            display: block;
+        }
+
+        .bl-logo {
+            width: 115px;
+            display: block;
+            margin: 12px auto 0;
+            border-radius: 50%;
+        }
+
+        .adat-kep {
+            width: 86px;
+            height: 86px;
+            display: block;
+            margin: 12px auto 0;
+            padding: 10px;
+            border: 2px solid #d6b25e;
+            border-radius: 50%;
+            background-color: white;
+            object-fit: contain;
+        }
+
+        .real-kep {
+            width: 92px;
+            height: 92px;
+            padding: 8px;
+            border-radius: 50%;
+        }
+
+        .bl-szoveg {
+            text-align: center;
+        }
+
+        .szam {
+            display: block;
+            color: #d6b25e;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .szoveg {
+            font-size: 14px;
+        }
+
+        .tortenet {
+            width: 80%;
+            max-width: 900px;
+            margin: 34px auto 70px;
+            padding: 28px;
+            display: flex;
+            gap: 26px;
+            align-items: center;
+            border: 2px solid rgba(214, 178, 94, 0.75);
+            border-radius: 8px;
+            background-color: rgba(0, 0, 0, 0.58);
+            text-align: left;
+        }
+
+        .tortenet-szoveg {
+            flex: 1;
+        }
+
+        .tortenet-szoveg h2 {
+            margin: 0 0 12px;
+            color: #d6b25e;
+            font-size: 34px;
+        }
+
+        .tortenet-szoveg p {
+            margin: 0;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .tortenet-kepek {
+            display: flex;
+            gap: 14px;
+        }
+
+        .tortenet-kepek img {
+            width: 120px;
+            height: 120px;
+            padding: 12px;
+            border: 2px solid #d6b25e;
+            border-radius: 8px;
+            background-color: white;
+            object-fit: contain;
+        }
+
+        .indulas {
+            width: 94%;
+            max-width: 1200px;
+            margin: 0 auto 80px;
+            padding: 34px;
+            display: flex;
+            gap: 26px;
+            align-items: center;
+            border-radius: 8px;
+            background-color: rgba(255, 255, 255, 0.12);
+            text-align: left;
+        }
+
+        .indulas img {
+            width: 640px;
+            height: auto;
+            border: 3px solid #d6b25e;
+            border-radius: 8px;
+            object-fit: contain;
+        }
+
+        .indulas h2 {
+            margin: 0 0 12px;
+            color: #d6b25e;
+            font-size: 32px;
+        }
+
+        .indulas p {
+            margin: 0;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <a class="vissza-link" href="index.html">Vissza</a>
+    <a class="real-link" href="https://www.realmadrid.com/en-US/">Real Madrid</a>
+
+    <div class="doboz">
+        <div class="cimer">RM</div>
+        <h1>Real Madrid</h1>
+        <div class="vonal"></div>
+        <p>Királyi hangulat, legendás stadion.</p>
+
+        <div class="adatok">
+            <div class="adat bl-adat">
+                <div class="bl-szoveg">
+                    <span class="szam">15</span>
+                    <span class="szoveg">BL győzelem</span>
+                </div>
+                <img class="bl-logo" src="bl15.jpg" alt="15 BL logo">
+            </div>
+            <div class="adat">
+                <span class="szam">1902</span>
+                <span class="szoveg">alapítás</span>
+                <img class="adat-kep" src="rm_1902.png" alt="Real Madrid 1902 logo">
+            </div>
+            <div class="adat">
+                <span class="szam">RM</span>
+                <span class="szoveg">REAL MADRID</span>
+                <img class="adat-kep real-kep" src="REALMADRID-png.png" alt="Real Madrid logo">
+            </div>
+        </div>
+    </div>
+
+    <div class="tortenet">
+        <div class="tortenet-szoveg">
+            <h2>1902 - a kezdet</h2>
+            <p>A Real Madrid története 1902-ben indult. A klub azóta a világ egyik legismertebb futballcsapata lett, sok legendás játékossal, nagy mérkőzéssel és rengeteg trófeával.</p>
+        </div>
+
+        <div class="tortenet-kepek">
+            <img src="rm_1902.png" alt="Real Madrid 1902 logo">
+            <img src="REALMADRID-png.png" alt="Real Madrid mai logo">
+        </div>
+    </div>
+
+    <div class="indulas">
+        <img src="honnanindultak.pgn" alt="Real Madrid régi kép">
+
+        <div>
+            <h2>Honnan indultak?</h2>
+            <p>A klub Madridból indult, egy lelkes futballközösségből. A kezdetek után fokozatosan nőtt nagy csapattá, majd a Real Madrid neve világszerte ismert lett.</p>
+        </div>
+    </div>
+
+</body>
+</html>
